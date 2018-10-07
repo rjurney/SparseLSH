@@ -4,7 +4,7 @@ try:
 except ImportError:
     from distutils.core import setup
 
-install_requires = ['numpy==1.8.1', 'scipy==0.14.0']
+install_requires = ['numpy', 'scipy']
 
 setup(
     name='sparselsh',
